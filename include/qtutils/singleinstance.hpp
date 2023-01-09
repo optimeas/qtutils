@@ -9,7 +9,7 @@ namespace qu
 class SingleInstance
 {
 public:
-    SingleInstance(const QString &applicationName);
+    explicit SingleInstance(const QString &applicationName);
 
     bool isAnotherInstanceRunning();
 
